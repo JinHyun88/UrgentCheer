@@ -29,11 +29,22 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
     //카카오 맵 api
-    implementation files('libs/libDaumMapAndroid.jar')
+//    implementation files('libs/libDaumMapAndroid.jar')
+
+    //jsoup
+    implementation 'org.jsoup:jsoup:1.14.2'
+
+    // corutine
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2-native-mt'
+
+    implementation 'com.google.android.material:material:1.3.0'
 
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'

@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/User/Desktop/UrgentCheer/app/src/main/res/layout/activity_main.xml" value="0.27395833333333336" />
+        <entry key="..\:/Users/User/Desktop/UrgentCheer/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/User/Desktop/UrgentCheer/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/User/Desktop/UrgentCheer/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/User/Desktop/UrgentCheer/app/src/main/res/menu/menu_bottom_nav.xml" value="0.27395833333333336" />
         <entry key="..\:/Users/User/Desktop/UrgentCheer/app/src/main/res/xml/network_securiti_config.xml" value="0.1828125" />
       </map>
     </option>

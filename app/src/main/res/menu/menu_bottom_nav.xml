@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="홈"
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+    <item
+        android:title="한강 온도"
+        android:id="@+id/menu_tmp_han"
+        android:icon="@drawable/ic_baseline_ac_unit_24"
+        />
+</menu>
