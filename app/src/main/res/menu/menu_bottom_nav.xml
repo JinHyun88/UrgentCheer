@@ -7,7 +7,7 @@
         />
     <item
         android:title="한강 온도"
-        android:id="@+id/menu_tmp_han"
+        android:id="@+id/menu_hangang"
         android:icon="@drawable/ic_baseline_ac_unit_24"
         />
 </menu>
