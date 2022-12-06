@@ -15,7 +15,7 @@ class FragmentMain : Fragment() {
     private var _binding: FragmentMainBinding? = null
     private val binding get() = _binding!!
 
-    private var jsonQuote : JSONArray = (activity as MainActivity).getQuote()
+    private lateinit var jsonQuote : JSONArray
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -30,7 +30,7 @@ class FragmentMain : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
+        jsonQuote = (activity as MainActivity).getQuote()
 
         val num = Random().nextInt(jsonQuote.length())
 
